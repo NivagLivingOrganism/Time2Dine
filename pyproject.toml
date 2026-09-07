@@ -1,0 +1,19 @@
+[project]
+name = "time2dine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gavin0025", email = "gngg0025@student.monash.edu" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "reflex>=0.9.10.post1",
+]
+
+[project.scripts]
+time2dine = "time2dine:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
