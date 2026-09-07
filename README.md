@@ -77,63 +77,10 @@ Points can be redeemed at:
 500 points = $10 platform credit
 ```
 
-## Project Structure
-
-```text
-.
-├── assets/
-├── components/
-├── pages/
-├── models/
-├── services/
-├── app.py
-├── rxconfig.py
-├── requirements.txt
-└── README.md
-```
 
 ## Installation
 
 Clone the repository:
-
-```bash
-git clone <repository-url>
-cd <repository-name>
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate it:
-
-### Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-### macOS/Linux
-
-```bash
-source .venv/bin/activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Running the Application
-
-Start the Reflex development server:
-
-```bash
-reflex run
-```
 
 The application will then be available locally through the Reflex development server.
 
