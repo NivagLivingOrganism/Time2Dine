@@ -5,22 +5,23 @@ Built for **Melbourne Hackathon 2026**.
 
 ## Installation
 
-1. have uv preinstalled by running the following in powershell: 
+1. Install Node.js LTS.
 
-'''
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-'''
+2. Install uv:
 
-2. git clone this repo 
-3. cd to the time2dine directory in the terminal 
-4. run the website with the following command
+- powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
-'''
-uv run reflex run 
-'''
+3. Clone the repository:
+-    git clone <repo-url>
+
+4. Enter the project:
+  -  cd Time2Dine
+
+5.  Start the website:
+
+-    uv run reflex run
 
 The application will then be available locally through the Reflex development server.
-
 
 ## Overview
 
