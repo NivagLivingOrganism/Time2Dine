@@ -3,6 +3,25 @@ A web application that connects diners with restaurants offering discounts durin
 
 Built for **Melbourne Hackathon 2026**.
 
+## Installation
+
+1. have uv preinstalled by running the following in powershell: 
+
+'''
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+'''
+
+2. git clone this repo 
+3. cd to the time2dine directory in the terminal 
+4. run the website with the following command
+
+'''
+uv run reflex run 
+'''
+
+The application will then be available locally through the Reflex development server.
+
+
 ## Overview
 
 Restaurants often have unused tables during quieter periods, while diners are looking for better-value dining experiences.
@@ -76,13 +95,6 @@ Points can be redeemed at:
 ```text
 500 points = $10 platform credit
 ```
-
-
-## Installation
-
-Clone the repository:
-
-The application will then be available locally through the Reflex development server.
 
 ## Hackathon Scope
 
